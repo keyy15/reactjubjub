@@ -1,0 +1,11 @@
+.active{
+    color: white;
+    background-color: rgba(1, 1, 1, 0.5);
+    padding: 8px 22px;
+    border-radius: 10px;
+    transition: 0.5s;
+    border-bottom: 1px solid rgb(185, 80, 80);
+}
+.navbar{
+    border-bottom: 1px solid rgb(185, 80, 80);
+}
