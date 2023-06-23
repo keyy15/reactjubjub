@@ -7,45 +7,45 @@ import {BsLinkedin, BsGithub, BsTwitter, BsFacebook, BsTelegram} from 'react-ico
 function Home() {
   return (
     <div className='w-full min-h-ful relative -z-10'>
-      <img src={BackImg} alt={BackImg} className='w-[100%] h-[600px] opacity-80' />
+      <img src={BackImg} alt={BackImg} className='w-[100%] h-[600px] opacity-50' />
       <div className='w-full absolute top-1/2 left-1/2 transform translate-x-[-50%] translate-y-[-50%] flex items-center justify-between '>
-          <div className='title p-[100px] max-sm:w-[50%] max-sm:bg-slate-500 max-sm:p-4'>
+          <div className='title p-[100px] max-sm:w-[50%] max-sm:p-4'>
           <h1 className='text-[#000000] text-[40px] font-bold mt-[8px] max-sm:mt-[8px]'>Hi There,</h1>
-          <h1 className='text-[#000000] text-[40px] font-bold mt-[8px] max-sm:text-[18px] max-sm:mt-[8px]'>I'm Raksmey Hem</h1>
-          <p className='text-[#000000] text-[20px] font-medium mt-[8px] max-sm:text-[18px] max-sm:mt-[8px]'>I Am Into <span className='text-5xl font-extrabold text-blue-600 drop-shadow-lg max-sm:mt-[8px]'>Web Developer ||</span></p>
+          <h1 className='text-[#000000] text-[40px] font-normal mt-[8px] max-sm:text-[18px] max-sm:mt-[8px]'>I am <span className='text-4xl font-extrabold text-blue-600 drop-shadow-lg max-sm:mt-[8px] max-sm:font-bold max-sm:text-[23px]'>Hem Raksmey</span></h1>
+          <p className='text-[#000000] text-[20px] font-medium mt-[8px] max-sm:text-[18px] max-sm:mt-[8px]'>I Am Into <span className='text-5xl font-extrabold text-blue-600 drop-shadow-lg max-sm:mt-[8px] max-sm:text-[29px]'>Web Developer ||</span></p>
           <button className='btn-about mt-[12px] max-sm:mt-[18px]'>About Me</button>
-          <div className='social-media mt-[24px] flex justify-start'>
-            <ul className='space-x-4'>
-              <li>
+          <div className='social-media mt-[24px]'>
+            <ul className='space-x-4 max-sm:flex max-sm:space-x-1'>
+              <li className='bg-slate-400'>
                 <a href='https://www.youtube.com/watch?v=akkYrXYSo28'>
-                  <BsLinkedin className='text-4xl bg-indigo-500 rounded-md' />
+                  <BsLinkedin className='text-4xl bg-indigo-500 rounded-md max-sm:text-[32px]' />
                 </a>
               </li>
               <li>
                 <a href='https://www.youtube.com/watch?v=akkYrXYSo28'>
-                  <BsGithub className='text-4xl bg-indigo-500 rounded-md' />
+                  <BsGithub className='text-4xl bg-indigo-500 rounded-md max-sm:text-[32px]' />
                 </a>
               </li>
               <li>
                 <a href='https://www.youtube.com/watch?v=akkYrXYSo28'>
-                  <BsTwitter className='text-4xl bg-indigo-500 rounded-md' />
+                  <BsTwitter className='text-4xl bg-indigo-500 rounded-md max-sm:text-[32px]' />
                 </a>
               </li>
               <li>
                 <a href='https://www.youtube.com/watch?v=akkYrXYSo28'>
-                  <BsFacebook className='text-4xl bg-indigo-500 rounded-md' />
+                  <BsFacebook className='text-4xl bg-indigo-500 rounded-md max-sm:text-[32px]' />
                 </a>
               </li>
               <li>
                 <a href='https://www.youtube.com/watch?v=akkYrXYSo28'>
-                  <BsTelegram className='text-4xl bg-indigo-500 rounded-md' />
+                  <BsTelegram className='text-4xl bg-indigo-500 rounded-md max-sm:text-[32px]' />
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div className='img-box w-[50%] h-full flex items-center justify-center max-sm:w-[50%]'>
-          <img src={Smey} alt={Smey} className='h-[400px] bg-indigo-500 rounded-full'/>
+        <div className='img-box w-[50%] h-full flex items-center justify-center '>
+          <img src={Smey} alt={Smey} className='h-[400px] bg-indigo-500 rounded-full max-sm:h-[200px]'/>
         </div>
       </div>
     </div>
