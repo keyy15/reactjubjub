@@ -35,3 +35,10 @@
 .social-media ul li a{
     border-radius: 50px;
 }
+.img-box img{
+    background-color: #5E5DF0;
+    border-top-left-radius: 999px;
+    border-top-right-radius: 852px;
+    border-bottom-right-radius: 999px;
+    border-bottom-left-radius: 1px;
+}
