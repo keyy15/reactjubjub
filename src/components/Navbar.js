@@ -20,10 +20,10 @@ function Navbar() {
       </div>
       <div className={`menu w-[50%] font-bold text-black flex items-center justify-center ${showMenu ? 'max-sm:hidden' : 'max-sm:text-[12px]'} `}>
         <NavLink to="/" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active' >Home</NavLink>
-        <NavLink to="/product" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>Product</NavLink>
-        <NavLink to="/update" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>Update</NavLink>
-        <NavLink to="/about" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>About</NavLink>
-        <NavLink to="/login" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>Login</NavLink>
+        <NavLink to="/product" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>About</NavLink>
+        <NavLink to="/update" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>Service</NavLink>
+        <NavLink to="/about" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>Portfolio</NavLink>
+        <NavLink to="/login" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>Contact</NavLink>
         {/* <div className='menu-item md:hidden'>
               <input type='text' placeholder='Search' className='px-2 py-1 border border-gray-300 rounded-2xl focus:outline-none focus:ring-1 focus:ring-blue-500' />
               <button className='ml-2 bg-transparent border-none focus:outline-none'>

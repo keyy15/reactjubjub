@@ -1,5 +1,5 @@
 import React from 'react'
-import BackImg from '../assets/Bg.avif'
+import BackImg from '../assets/imgbg.jpg'
 import Smey from '../assets/sney.png'
 import '../styles/Home.css'
 import {BsLinkedin, BsGithub, BsTwitter, BsFacebook, BsTelegram} from 'react-icons/bs'
@@ -50,9 +50,11 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='w-full h-[760px] bg-gray-600 flex flex-col items-center justify-center'>
-        <div className='content-left w-80% h-[20%] flex items-center  justify-start text-4xl bg-slate-400'>
-          <h1 className='w-[80%]'>Portfolio</h1>
+      <div className='w-full h-[760px] flex flex-col items-center justify-center'>
+        <div className='content-left w-80% h-[20%] flex flex-col items-center justify-center text-center text-4xl'>
+          <h1 className='w-[80%] text-[#5E5DF0] text-2xl font-medium'>Portfolio</h1>
+          <h2 className='text-black font-bold underline underline-offset-2'>Expertise Service! Let's check it out</h2>
+          <p className='text-sm text-black'>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div className='content-right w-full h-[80%] flex items-center justify-center bg-slate-500'>Right</div>
       </div>

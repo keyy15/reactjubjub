@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Product from '../src/pages/Product'
-import Update from './pages/Update';
-import Login from './pages/Login';
 import About from './pages/About'
+import Portfolio from './pages/Portfolio';
+import Contact from '../src/pages/Contact';
+import Service from './pages/Service';
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/update" element={<Update />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/product" element={<About />} />
+          <Route path="/update" element={<Service />} />
+          <Route path="/about" element={<Portfolio />} />
+          <Route path="/login" element={<Contact />} />
         </Routes>
       </Router>
     </div>
