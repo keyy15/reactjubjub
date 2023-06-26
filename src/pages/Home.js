@@ -3,6 +3,7 @@ import BackImg from '../assets/imgbg.jpg'
 import Smey from '../assets/sney.png'
 import '../styles/Home.css'
 import {BsLinkedin, BsGithub, BsTwitter, BsFacebook, BsTelegram} from 'react-icons/bs'
+import Portfolio from '../components/Portfolio'
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
             <p className='text-[#000000] text-[20px] font-medium mt-[8px] max-sm:text-[18px] max-sm:mt-[8px]'>I Am Into <span className='text-5xl font-extrabold text-blue-600 drop-shadow-lg max-sm:mt-[8px] max-sm:text-[29px]'>Web Developer</span></p>
             <button className='btn-about mt-[12px] max-sm:mt-[18px]'>About Me</button>
             <div className='social-media mt-[24px]'>
-              <ul className='space-x-4 max-sm:flex max-sm:space-x-1'>
+              <ul className='space-x-4 max-sm:flex max-sm:space-x-1'> 
                 <li className='bg-slate-400'>
                   <a href='https://www.youtube.com/watch?v=akkYrXYSo28'>
                     <BsLinkedin className='text-4xl bg-indigo-500 rounded-md max-sm:text-[32px]' />
@@ -50,14 +51,31 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='w-full h-[760px] flex flex-col items-center justify-center'>
-        <div className='content-left w-80% h-[20%] flex flex-col items-center justify-center text-center text-4xl'>
+      <Portfolio />
+      {/* <div className='w-full h-[760px] flex flex-col items-center justify-center'>
+        <div className='content-left w-[80%] h-[20%] flex flex-col items-center justify-center text-center text-4xl bg-lime-500'>
           <h1 className='w-[80%] text-[#5E5DF0] text-2xl font-medium'>Portfolio</h1>
           <h2 className='text-black font-bold underline underline-offset-2'>Expertise Service! Let's check it out</h2>
           <p className='text-sm text-black'>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div className='content-right w-full h-[80%] flex items-center justify-center bg-slate-500'>Right</div>
-      </div>
+        <div className='content-right flex gap-6 items-center justify-evenly bg-slate-500'>
+          <div className='list-detai w-[320px] flex flex-col items-center p-8 rounded-2xl bg-amber-800'>
+            <img src='' className=''/>
+            <h2 className=''>UX UI Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div className='list-detai w-[320px] flex flex-col items-center p-8 rounded-2xl bg-amber-800'>
+            <img src='' className=''/>
+            <h2 className=''>UX UI Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div className='list-detai w-[320px] flex flex-col items-center p-8 rounded-2xl bg-amber-800'>
+            <img src='' className=''/>
+            <h2 className=''>UX UI Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div> */}
     </div>
   )
 }
