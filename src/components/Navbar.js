@@ -2,8 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import { IoReorderThree } from "react-icons/io5"
-import Logo from '../assets/asd.png'
 import '../styles/Navbar.css';
+import Logo from '../assets/WbProject1.png'
 
 function Navbar() {
 

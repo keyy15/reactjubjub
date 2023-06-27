@@ -1,5 +1,5 @@
 import React from 'react'
-import BackImg from '../assets/imgbg.jpg'
+import BackImg from '../assets/WbProject1.png'
 import Smey from '../assets/sney.png'
 import '../styles/Home.css'
 import {BsLinkedin, BsGithub, BsTwitter, BsFacebook, BsTelegram} from 'react-icons/bs'
@@ -9,7 +9,7 @@ function Home() {
   return (
     <div>
       <div className='w-full min-h-ful relative -z-10'>
-        <img src={BackImg} alt={BackImg} className='w-[100%] h-[688px] opacity-50 max-sm:h-[688px]' />
+        <img src={BackImg} alt={BackImg} className='w-[100%] max-sm:h-[688px]' />
         <div className='w-full flex items-center justify-around absolute top-1/2 left-1/2 transform translate-x-[-50%] translate-y-[-50%] max-sm:flex max-sm:flex-col-reverse max-sm:h-[75%]'>
             <div className='title p-[100px] max-sm:w-full max-sm:p-6 '>
             <h1 className='text-transparent bg-gradient-to-r from-blue-900 to-red-600 bg-clip-text text-[40px] font-bold mt-[8px] max-sm:mt-[8px] max-sm:text-[28px]'>Hi There,</h1>
