@@ -1,5 +1,6 @@
 import UiLogo from '../assets/uxui.png'
 import Web from '../assets/web.png'
+import Creative from '../assets/creative.png'
 
 export const ListBox = [
     {
@@ -13,7 +14,7 @@ export const ListBox = [
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        image: 'asd',
+        image: Creative,
         tittle: 'Hello',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
