@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import { IoReorderThree } from "react-icons/io5"
 import '../styles/Navbar.css';
-import Logo from '../assets/WbProject1.png'
+import Logo from '../assets/logo.png'
 
 function Navbar() {
 
@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <div className='navbar w-full min-h-ful flex justify-between bg-white max-sm:p-2'>
       <div className={`logo w-[50%] flex items-center justify-center ${showMenu ? 'max-sm:block' : 'max-sm:w-0'}`}>
-        <img src={Logo} alt='Logo' className='w-[14%] p-2 max-sm:w-[32%] max-sm:ml-[70px]' />
+        <img src={Logo} alt='Logo' className='w-[38%] p-2 max-sm:w-[100%] max-sm:ml-[70px]' />
       </div>
       <div className={`menu w-[50%] font-bold text-black flex items-center justify-center ${showMenu ? 'max-sm:hidden' : 'max-sm:text-[12px]'} `}>
         <NavLink to="/" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active' >Home</NavLink>
