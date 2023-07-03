@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About'
 import Portfolio from './pages/Portfolio';
-import Contact from '../src/pages/Contact';
+import Contact from './pages/Contact';
 import Service from './pages/Service';
 
 function App() {
@@ -14,10 +14,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/product" element={<About />} />
-          <Route path="/update" element={<Service />} />
-          <Route path="/about" element={<Portfolio />} />
-          <Route path="/login" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>

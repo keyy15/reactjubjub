@@ -1,9 +1,30 @@
 import React from "react";
-import { ListBox } from "../helpers/ListBox";
 import WhiteBG from '../assets/WhiteBG.png'
 import '../styles/Home.css'
+import UiLogo from '../assets/UXUIDesign.png'
+import Web from '../assets/WebDeveloper.png'
+import Creative from '../assets/Createive.png'
 
 function Home() {
+
+    const ListBox = [
+        {
+            image: UiLogo,
+            tittle: 'UX UI Design',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        },
+        {
+            image: Web,
+            tittle: 'Web Developer',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        },
+        {
+            image: Creative,
+            tittle: 'Creative',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        },
+    ];
+
     return (
         <div className="w-full h-full relative">
             <img src={WhiteBG} alt={WhiteBG} className="w-full h-[540px] max-sm:h-[1280px]"/>

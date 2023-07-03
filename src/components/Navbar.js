@@ -19,7 +19,7 @@ function Navbar() {
         <img src={Logo} alt='Logo' className='w-[38%] p-2 max-sm:w-[100%] max-sm:ml-[70px]' />
       </div>
       <div className={`menu w-[50%] font-bold text-black flex items-center justify-center ${showMenu ? 'max-sm:hidden' : 'max-sm:text-[12px]'} `}>
-        <NavLink to="/" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active' >Home</NavLink>
+        <NavLink to="/" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>Home</NavLink>
         <NavLink to="/product" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>About</NavLink>
         <NavLink to="/update" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>Service</NavLink>
         <NavLink to="/about" className='menu-item mr-4 hover:text-[#505050]' activeClassName='active'>Portfolio</NavLink>
